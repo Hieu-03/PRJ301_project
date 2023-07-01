@@ -1,0 +1,167 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 27, 2023, 11:42:03 AM
+    Author     : Hieu-Acer
+*/
+body{
+    background-image: url("../Image/login_bg.jpg");
+    background-size: 100%; 
+}
+
+.auth-form-container{
+    background-color: rgba(255, 255, 255, 0.644);
+    padding: 30px;
+    width: max-content;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.349);
+}
+h2{
+    font-family: Tahoma;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.login-form, .register-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    width: 500px;
+    height: 20px;
+    font-size: 13px;
+    background: none;
+    border-bottom: 1px solid black;  
+}
+
+.submit{
+    display: inline-flex;
+}
+
+.button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: #000c44;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.349);
+}
+
+.button:hover{
+    background: #001a8d;
+    border-radius: 20px;
+    color: white;
+}
+
+.home{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: #3a3a3a;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.349);
+}
+
+.home:hover{
+    background: #7e7e7e;;
+    border-radius: 20px;
+    color: white;
+}
+
+.error{
+    color: red;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 40, 173);
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(68, 0, 228);
+    font-family: Tahoma;
+}
+
+.register-here{
+    font-family: Tahoma;
+    font-size: 13px;
+}
+
+.input-error{
+    font-family: Tahoma;
+    color: red;
+    font-size: 12px;
+    text-align: left;
+}
+
+.address{
+    display: inline-flex;
+}
+
+.box{
+    display: block;
+}
+
+.box p{
+    font-family: Tahoma;
+    font-size: 11px;
+    color: dimgray;
+    margin-left: 5px;
+}
+
+.ward{
+    width: 65px;
+    margin-right: 10px;   
+}
+
+.city{
+    width: 125px;
+}
+
+.num{
+    width: 185px;
+    margin-right: 10px;
+}
+
+.show-pass{
+    width: 500px;
+    display: inline-flex;
+    align-items: center;
+    height: 30px;
+    /*border: 1px solid red;*/
+}
+
+.show-pass input{
+    position: absolute;
+    right: 22%;
+    height: 15px;
+}
+
+.show-text{
+    width: 200px;
+    position: absolute;
+    right: 25%;
+    font-family: Tahoma;
+    font-size: 12px;
+}
